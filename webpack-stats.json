@@ -5,6 +5,11 @@
       "name": "main.js",
       "path": "D:\\Storage Space\\Yash\\Workspace\\Web dev\\Django projects\\lead_manager_react_django\\leadmanager\\frontend\\static\\frontend\\main.js",
       "publicPath": "./leadmanager/static/frontend/main.js"
+    },
+    "main.js.LICENSE.txt": {
+      "name": "main.js.LICENSE.txt",
+      "path": "D:\\Storage Space\\Yash\\Workspace\\Web dev\\Django projects\\lead_manager_react_django\\leadmanager\\frontend\\static\\frontend\\main.js.LICENSE.txt",
+      "publicPath": "./leadmanager/static/frontend/main.js.LICENSE.txt"
     }
   },
   "chunks": {
