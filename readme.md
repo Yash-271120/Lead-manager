@@ -10,5 +10,3 @@ _Create leads on people_
 4. cd into leadmanager
 5. run `python manager.py runserver`
 6. open `http://127.0.0.1:8000/`
-
-# Deployment -
