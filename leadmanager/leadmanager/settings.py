@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-id*8pexke6xi+ud8mk$i&er*lq8i+7m!yuzi_q)9_&=01d-os+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['lead-manager.onrender.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -63,7 +63,7 @@ ROOT_URLCONF = 'leadmanager.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR/'frontend/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,7 +124,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = 'static/test/'
+STATIC_ROOT = BASE_DIR/'frontend'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
